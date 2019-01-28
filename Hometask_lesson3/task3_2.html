@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task2</title>
+</head>
+<body>
+<script type="text/javascript">
+	var name1=prompt ('Как тебя зовут?');
+	var age = prompt('Какого ты года рождения?');
+	var date = new Date().getFullYear();
+	var currentd= date-age;
+if (currentd%100 >=5 && currentd % 100 <= 20)
+	alert (name1 + ', ' + currentd + ' лет');
+else if (currentd %10 == 1)
+	alert (name1 + ', ' + currentd + ' год');
+else if (currentd %10 >=2 && currentd % 10 <= 4)
+	alert (name1+', ' + currentd + ' года');
+else
+	alert (name1 + ', ' + currentd + ' лет');
+</script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+.uppertext ul, li, h1 {
+    display: inline-block;
+}
+
+.uppertext li {
+    color: grey;
+    padding: 30px;
+}
+
+.uppertext h1 {
+    background-image: url('quotes.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 60px;
+}
+
+ul {
+    text-align: right;
+    float: right;
+    height: 100%
+}
+
+body {
+    margin-top: 5%;
+}
+
+.uppertext {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.headline {
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+    font-size: 150%;
+
+}
+
+.phone_text {
+    display: inline-block;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 805px;
+    color: white;
+}
+
+button {
+    background-image: url('checkmark.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px;
+    padding-left: 60px;
+    background-color: #4281f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.pictures div {
+    display: inline-block;
+    margin: 50px;
+    color: grey;
+}
+
+.pictures {
+    text-align: center;
+    padding-top: 50px
+}
+
+.pictures h2 {
+    color: #4281f2;
+    margin-bottom: 5px;
+}
+
+.basket img {
+    width: 400px;
+    display: inline-block;
+    float: left;
+}
+
+.basket {
+    text-align: center;
+    color: grey;
+}
+
+.basket h1 {
+    display: block;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 250%
+}
+
+.basket .content {
+    width: 1200px;
+    display: inline-block;
+    text-align: left;
+}
+
+.basket .content div {
+    display: inline-block;
+}
+
+.basket .content .right_side {
+    margin-left: 70px;
+}
+
+.copy {
+    text-align: center;
+    color: grey;
+    padding-bottom: 10%;
+    padding-top: 1%;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+hr {
+    border: none;
+    background-color: #ccc;
+    height: 1px;
+}
